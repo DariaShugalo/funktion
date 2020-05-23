@@ -18,7 +18,7 @@ class Hen(Geese, Animals):
     pass
 
 
-class Cow(Animals):
+class сow(Animals):
     def get_milk(self):
         self.state = "Доить"
 
@@ -36,7 +36,7 @@ class Duck(Geese, Animals):
     pass
 
 
-cow = Cow(name='Манька', weight=430, sound='Му-му')
+cow = сow(name='Манька', weight=430, sound='Му-му')
 duck = Duck(name='Кряква', weight=15, sound='Кря-кря')
 sheep1 = Sheep(name='Барашек', weight=140, sound='бе-бе')
 sheep2 = Sheep(name='Кудрявый', weight=155, sound='бе-бе')
