@@ -49,5 +49,4 @@ goose2 = Geese(name='Белый', weight=20, sound='шшшшшш')
 
 
 
-pets =["сow", "duck", "sheep1", "sheep2", "hen1", "hen2", "goat1", "goat2", "goose1", "goose2"]
-print(max(pets))
+
