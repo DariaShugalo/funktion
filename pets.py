@@ -1,4 +1,4 @@
-lass Animals():
+Class Animals():
 
     def __init__(self, name, weight, sound):
         self.name = name
